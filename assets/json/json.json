@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Life",
+    "image": "assets/image/life.png",
+    "quotes": [
+      "Im selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can t handle me at my worst, then you sure as hell don t deserve me at my best.",
+      "You've gotta dance like there's nobody watching,\nLove like you'll never be hurt,\nSing like there's nobody listening,\nAnd live like it's heaven on earth",
+      "You only live once, but if you do it right, once is enough.",
+      "In three words I can sum up everything I've learned about life: it goes on.",
+      "To live is the rarest thing in the world. Most people exist, that is all.",
+      "Insanity is doing the same thing, over and over again, but expecting different results",
+      "It is better to be hated for what you are than to be loved for what you are not.",
+      "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle",
+      "Good friends, good books, and a sleepy conscience: this is the ideal life.",
+      "Life is what happens to us while we are making other plans."
+    ],
+    "author": [
+      "― Marilyn Monroe",
+      "― William W. Purkey",
+      "― Mae West",
+      "― Robert Frost",
+      "― Oscar Wilde",
+      "― Narcotics Anonymous",
+      "― Andre Gide, Autumn Leaves",
+      "― Albert Einstein",
+      "― Mark Twain",
+      "― Allen Saunders"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Love",
+    "image": "assets/image/love.png",
+    "quotes": [
+      "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+      "You know you're in love when you can't fall asleep because reality is finally better than your dreams",
+      "A friend is someone who knows all about you and still loves you.",
+      "It is better to be hated for what you are than to be loved for what you are nots",
+      "It is not a lack of love, but a lack of friendship that makes unhappy marriages",
+      "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+      "You love me. Real or not real? I tell him, Real.",
+      "If you can make a woman laugh, you can make her do anything.",
+      "There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.",
+      "Love is like the wind, you can't see it but you can feel it."
+    ],
+    "author": [
+      "― Marilyn Monroe",
+      "― Dr. Seuss",
+      "― Elbert Hubbard",
+      "― Andre Gide, Autumn Leaves",
+      "― Friedrich Nietzsche",
+      "― Lao Tzu",
+      "― Suzanne Collins, Mockingjay",
+      "― Marilyn Monroe",
+      "― Jane Austen, Northanger Abbey",
+      "― Nicholas Sparks, A Walk to Remember"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Relationships",
+    "image": "assets/image/Relationships.png",
+    "quotes": [
+      "When someone loves you, the way they talk about you is different. You feel safe and comfortable.",
+      "Indifference and neglect often do much more damage than outright dislike",
+      "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
+      "For the two of us, home isn't a place. It is a person. And we are finally home.",
+      "Man may have discovered fire, but women discovered how to play with it.",
+      "The most painful thing is losing yourself in the process of loving someone too much, and forgetting that you are special too.",
+      "I mean, if the relationship can't survive the long term, why on earth would it be worth my time and energy for the short term?",
+      "Every man I meet wants to protect me. I can't figure out what from.",
+      "There is greatness in doing something you hate for the sake of someone you love.",
+      "I know I am but summer to your heart, and not the full four seasons of the year."
+    ],
+    "author": [
+      "― Jess C. Scott, The Intern",
+      "― J.K. Rowling.",
+      "― Carl Gustav Jung",
+      "― Stephanie Perkins",
+      "― Candace Bushnell.",
+      "― Ernest Hemingway",
+      "― Nicholas Sparks",
+      "― Mae West",
+      "― Shmuley Boteach",
+      "― Edna St. Vincent Millay"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Motivational",
+    "image": "assets/image/Motivational.png",
+    "quotes": [
+      "Attitude is a choice. Happiness is a choice. Optimism is a choice. Kindness is a choice. Giving is a choice. Respect is a choice. Whatever choice you make makes you. Choose wisely.",
+      "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+      "Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine.",
+      "The truth is, unless you let go, unless you forgive yourself, unless you forgive the situation, unless you realize that the situation is over, you cannot move forward.",
+      "Those who don’t believe in magic will never find it.",
+      "If you don’t like the road you’re walking, start paving another one.",
+      "The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.",
+      "To succeed in life, you need three things: a wishbone, a backbone, and a funny bone.",
+      "The biggest adventure you can take is to live the life of your dreams.",
+      "As soon as something stops being fun, I think it’s time to move on. Life is too short to be unhappy. Waking up stressed and miserable is not a good way to live."
+    ],
+    "author": [
+      "― Roy T. Bennett, The Light in the Heart",
+      "― Roy T. Bennett, The Light in the Heart",
+      "― Roy T. Bennett, The Light in the Heart",
+      "― Steve Maraboli,",
+      "― ROALD DAHL",
+      "― DOLLY PARTON",
+      "― HELEN KELLER",
+      "― REBA MCENTIRE",
+      "― OPRAH WINFREY",
+      "― RICHARD BRANSON"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Achievement",
+    "image": "assets/image/Achievement.png",
+    "quotes": [
+      "Optimism is essential to achievement and it is also the foundation of courage and true progress.",
+      "Only those who dare to fail greatly can ever achieve greatly",
+      "Achievements have no value, if you leave behind the people to celebrate with.",
+      "One cannot grow without pain. One cannot improve without it. Suffering drives us to achieve great things.",
+      "Things work out best for those who make the best of how things work out.",
+      "It is amazing what you can accomplish if you do not care who gets the credit.",
+      "The only goals you don’t achieve in life are the goals you don’t set.",
+      "Nothing that happens to you was meant to be. The only thing about you that was meant to be is you. Blaze your own trail.",
+      "The starting point of all achievement is desire.",
+      "Every end becomes a means of carrying activity further as soon as it is achieved."
+    ],
+    "author": [
+      "― Nicholas M. Butler",
+      "― Robert F. Kennedy",
+      "― Invajy",
+      "― Joe Abercrombie",
+      "― John Wooden",
+      "― Harry S. Truman",
+      "― Matt Fox",
+      "― George Alexiou",
+      "― Napoleon Hill",
+      "― John Dewey"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Broken",
+    "image": "assets/image/broken.png",
+    "quotes": [
+      "i felt her absence. it was like waking up one day with no teeth in your mouth. you wouldn't need to run to the mirror to know they were gone",
+      "Pleasure of love lasts but a moment. Pain of love lasts a lifetime.",
+      "Only time can heal your broken heart. Just as only time can heal his broken arms and legs.",
+      "Crying is a way your eyes speak when your mouth can’t explain how broken your heart is.",
+      "One day you're going to remember me and how much I loved you … then you're going to hate yourself for letting me go.",
+      "Love gave someone the power to break you. I'd been broken beyond repair.",
+      "I don’t know why they call it heartbreak. It feels like every other part of my body is broken too.",
+      "You flew off with the wings of my heart and left me flightless.",
+      "Loving you was like going to war; I never came back the same.",
+      "When your heart is broken, you plant seeds in the cracks and you pray for rain."
+    ],
+    "author": [
+      "― James Dashner, The Scorch Trials",
+      "― Bette Davis",
+      "― Miss Piggy",
+      "― Unknown",
+      "― Aubrey Drake Graham",
+      "― Stephanie Meyer, New Moon",
+      "― Terri Guillemets",
+      "― Stelle Atwater",
+      "― Warsan Shire",
+      "― Andrea Gibson"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Friendship",
+    "image": "assets/image/friendship.png",
+    "quotes": [
+      "Friendship is a word, the very sight of which in print makes heart warm.",
+      "Friendship is always a sweet responsibility, never an opportunity.",
+      "Wishing to be friends is quick work, but friendship is a slow ripening fruit.",
+      "Friendship is the only cement that will ever hold the world together.",
+      "There are big ships and small ships. But the best ship of all is friendship.",
+      "Friendship is like a glass ornament, once it is broken it can rarely be put back together exactly the same way.",
+      "Friendship is the source of the greatest pleasures, and without friends even the most agreeable pursuits become tedious.",
+      "Friendship is delicate as a glass, once broken it can be fixed but there will always be cracks.",
+      "The greatest gift of life is friendship, and I have received it.",
+      "Friendship improves happiness, and abates misery, by doubling our joys, and dividing our grief."
+    ],
+    "author": [
+      "― Augustine Birrell",
+      "― Khalil Gibran",
+      "― Aristotle",
+      "― Woodrow Wilson",
+      "― Unknown",
+      "― Charles Kingsley",
+      "― Thomas Aquinas",
+      "― Waqar Ahmed",
+      "― Hubert H. Humphrey",
+      "― Marcus Tullius Cicero"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Attitude",
+    "image": "assets/image/Attitude.png",
+    "quotes": [
+      "Never whine, never complain, never try to justify yourself.",
+      "If opportunity doesn’t knock, build a door.",
+      "If you don’t like something, change it. If you can’t change it, change your attitude.",
+      "t is good people who make good places.",
+      "We are all in the gutter, but some of us are looking at the stars.",
+      "Sooner or later, those who win are those who think they can.",
+      "Nurture your mind with great thoughts, for you will never go any higher than you think.",
+      "Men do not attract that which they want, but that which they are.",
+      "The weak make others feel inferior. The strong make others feel equal.",
+      "What they call you is one thing. What you answer to is something else."
+    ],
+    "author": [
+      "― Robert Greene",
+      "―Milton Berle",
+      "― Maya Angelou",
+      "― Anna Sewell",
+      "― Oscar Wilde",
+      "― Richard Bach",
+      "― Benjamin Disraeli",
+      "― James Allen",
+      "― Maxime Lagacé",
+      "― Lucille Clifton"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Family",
+    "image": "assets/image/families.png",
+    "quotes": [
+      "The most important thing in the world is family and love.",
+      "Nothing is better than going home to family and eating good food and relaxing.",
+      "To us, family means putting your arms around each other and being there.",
+      "In family life, love is the oil that eases friction, the cement that binds closer together, and the music that brings harmony.",
+      "Other things may change us, but we start and end with the family.",
+      "Being a family means you are a part of something very wonderful. It means you will love and be loved for the rest of your life.",
+      "You don’t choose your family. They are God’s gift to you, as you are to them.",
+      "I am blessed to have so many great things in my life – family, friends, and God. All will be in my thoughts daily.",
+      "Let love be genuine. Abhor what is evil; hold fast to what is good.",
+      "It’s all about the quality of life and finding a happy balance between work and friends and family."
+    ],
+    "author": [
+      "― John Wooden",
+      "― Irina Shayk",
+      "― Barbara Bush",
+      "― Friedrich Nietzsche",
+      "― Anthony Brandt",
+      "― Lisa Weed",
+      "― Desmond Tutu",
+      "― Lil’ Kim",
+      "― Romans 12:9",
+      "― Philip Green"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Lonly",
+    "image": "assets/image/Lonly.png",
+    "quotes": [
+      " You’re not alone. I’m awake and I’ve been thinking of you. ",
+      " Lonely, I’m so lonely, I have nobody to call my own.",
+      " I’m not the girl you’re taking home. I keep dancing on my own.",
+      " We’re happy, free, confused, and lonely at the same time.",
+      " I walk a lonely road, the only one that I have ever known."
+    ],
+    "author": [
+      "― Kygo",
+      "― Akon",
+      "― Robyn",
+      "― Taylor Swift",
+      "― Green Day"
+    ]
+  }
+]
