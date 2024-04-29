@@ -32,7 +32,13 @@ class _QuotesDetailScreenState extends State<QuotesDetailScreen> {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("Quotes Detail"),
+          title: const Text(
+            "Quotes Detail",
+            style: TextStyle(
+              color: Colors.black,
+            ),
+          ),
+          iconTheme: const IconThemeData(color: Colors.black),
           actions: [
             PopupMenuButton(
               itemBuilder: (context) {
@@ -78,7 +84,9 @@ class _QuotesDetailScreenState extends State<QuotesDetailScreen> {
                   "${l1[1]}",
                   speed: const Duration(milliseconds: 100),
                   textStyle: const TextStyle(
-                      fontSize: 25, fontWeight: FontWeight.bold),
+                      color: Colors.black,
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold),
                 ),
               ]),
               const SizedBox(
@@ -89,7 +97,9 @@ class _QuotesDetailScreenState extends State<QuotesDetailScreen> {
                   "${l1[2]}",
                   speed: const Duration(milliseconds: 100),
                   textStyle: const TextStyle(
-                      fontSize: 25, fontWeight: FontWeight.bold),
+                      color: Colors.black,
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold),
                 ),
               ]),
               const Spacer(),
@@ -106,8 +116,17 @@ class _QuotesDetailScreenState extends State<QuotesDetailScreen> {
                       Column(
                         children: [
                           IconButton(
-                              onPressed: () {}, icon: const Icon(Icons.edit)),
-                          const Text("Edit")
+                              onPressed: () {},
+                              icon: const Icon(
+                                Icons.edit,
+                                color: Colors.black,
+                              )),
+                          const Text(
+                            "Edit",
+                            style: TextStyle(
+                              color: Colors.black,
+                            ),
+                          )
                         ],
                       ),
                       Column(
@@ -119,8 +138,16 @@ class _QuotesDetailScreenState extends State<QuotesDetailScreen> {
                                 Get.snackbar("Copy Quotes",
                                     'Successfully copy to quotes.');
                               },
-                              icon: const Icon(Icons.copy)),
-                          const Text("Copy")
+                              icon: const Icon(
+                                Icons.copy,
+                                color: Colors.black,
+                              )),
+                          const Text(
+                            "Copy",
+                            style: TextStyle(
+                              color: Colors.black,
+                            ),
+                          )
                         ],
                       ),
                       Column(
@@ -136,15 +163,32 @@ class _QuotesDetailScreenState extends State<QuotesDetailScreen> {
                                 Get.back();
                                 favouriteControler.favouriteData();
                               },
-                              icon: const Icon(Icons.favorite)),
-                          const Text("Like")
+                              icon: const Icon(
+                                Icons.favorite,
+                                color: Colors.black,
+                              )),
+                          const Text(
+                            "Like",
+                            style: TextStyle(
+                              color: Colors.black,
+                            ),
+                          )
                         ],
                       ),
                       Column(
                         children: [
                           IconButton(
-                              onPressed: () {}, icon: const Icon(Icons.save)),
-                          const Text("save")
+                              onPressed: () {},
+                              icon: const Icon(
+                                Icons.save,
+                                color: Colors.black,
+                              )),
+                          const Text(
+                            "save",
+                            style: TextStyle(
+                              color: Colors.black,
+                            ),
+                          )
                         ],
                       ),
                     ],

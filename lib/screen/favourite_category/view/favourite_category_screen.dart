@@ -5,6 +5,7 @@ import 'package:db_miner/utils/db_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/src/extension_instance.dart';
+import 'package:get/get_state_manager/get_state_manager.dart';
 
 class FavouriteCategoryScreen extends StatefulWidget {
   const FavouriteCategoryScreen({super.key});
@@ -33,13 +34,14 @@ class _FavouriteCategoryScreenState extends State<FavouriteCategoryScreen> {
           centerTitle: true,
           title: const Text("Favourite Category"),
         ),
-        body: ListView.builder(
-          itemExtent: 120,
-          itemCount: favouriteCategoryController.favouriteCategoryList.length,
-          itemBuilder: (context, index) {
-            return Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
+        body: Obx(
+          () => ListView.builder(
+            itemCount: favouriteCategoryController.favouriteCategoryList.length,
+            itemBuilder: (context, index) {
+              return Container(
+                margin: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
+                height: 100,
                 decoration: BoxDecoration(
                     color: controller.randomColor(),
                     borderRadius: BorderRadius.circular(10)),
@@ -47,19 +49,27 @@ class _FavouriteCategoryScreenState extends State<FavouriteCategoryScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                        "${favouriteCategoryController.favouriteCategoryList[index].name}"),
+                      "${favouriteCategoryController.favouriteCategoryList[index].name}",
+                      style: const TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black),
+                    ),
                     IconButton(
                         onPressed: () {
                           DbHelper.dbHelper.deleteCategoryData(
                               id: "${favouriteCategoryController.favouriteCategoryList[index].id}");
                           favouriteCategoryController.favouriteCategoryData();
                         },
-                        icon: const Icon(Icons.delete)),
+                        icon: const Icon(
+                          Icons.delete,
+                          color: Colors.black,
+                        ))
                   ],
                 ),
-              ),
-            );
-          },
+              );
+            },
+          ),
         ),
       ),
     );

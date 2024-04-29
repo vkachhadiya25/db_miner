@@ -1,4 +1,6 @@
 import 'package:db_miner/screen/home/controler/home_controler.dart';
+import 'package:db_miner/screen/model/db_model.dart';
+import 'package:db_miner/utils/db_helper.dart';
 import 'package:db_miner/utils/share_helper.dart';
 import 'package:db_miner/utils/text_style.dart';
 import 'package:flutter/material.dart';
@@ -64,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         SizedBox(
                           width: 10,
                         ),
-                        Text("Favourite Category"),
+                        Text("Favourite Quotes"),
                       ],
                     ),
                   )),
@@ -79,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         SizedBox(
                           width: 10,
                         ),
-                        Text("Favourite Quotes"),
+                        Text("Favourite Category"),
                       ],
                     ),
                   )),
@@ -91,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: Obx(
           () => ListView.builder(
             itemCount: controller.dbList.length,
-            itemExtent: 140,
+            itemExtent: 160,
             itemBuilder: (context, index) {
               return InkWell(
                 onTap: () {
@@ -110,9 +112,38 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            "${controller.dbList[index].name}",
-                            style: txtBold,
+                          Row(
+                            children: [
+                              Text(
+                                "${controller.dbList[index].name}",
+                                style: txtBold,
+                              ),
+                              const Spacer(),
+                              IconButton(
+                                  onPressed: () {
+                                    DbHelper.dbHelper.insertCategoryData(
+                                        controller.dbList[index].name!);
+                                    for (int i = 0;
+                                    i <
+                                        controller
+                                            .dbList[index].quotesList!.length;
+                                    i++) {
+                                      DbHelper.dbHelper.insertNameData(
+                                        DBModel(
+                                            name: controller.dbList[index].name,
+                                            author: controller
+                                                .dbList[index].authorList![i],
+                                            quotes: controller
+                                                .dbList[index].quotesList![i]),
+                                      );
+                                    }
+                                  },
+                                  icon: const Icon(
+                                    Icons.favorite_border,
+                                    color: Colors.black,
+                                    size: 32,
+                                  )),
+                            ],
                           ),
                           Align(
                             alignment: Alignment.centerRight,
@@ -121,7 +152,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               fit: BoxFit.cover,
                               height: 70,
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),

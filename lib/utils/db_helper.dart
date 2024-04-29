@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'package:db_miner/screen/home/model/home_model.dart';
 import 'package:db_miner/screen/model/db_model.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart';
